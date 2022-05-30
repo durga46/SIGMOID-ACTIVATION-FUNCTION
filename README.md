@@ -20,6 +20,7 @@ The derivative of the function is f'(x) = sigmoid(x)*(1-sigmoid(x)).
 The output of the logistic function is not symmetric around zero. So the output of all the neurons will be of the same sign. This makes the training of the neural network more difficult and unstable.
 
 ## Algorithm
+
 1.Import packages
 2.Define neural network class
 3.Model single neuron with 3 inputs and 1 output and assign random weights to a 3 x 1 matrix with values between -1 and 1
@@ -87,8 +88,7 @@ if __name__=="__main__":
 ```
 
 ## Output:
-![ouput screenshot](XXX.png)
-
+![sd1](https://user-images.githubusercontent.com/75235704/170962037-a67ac5fd-fd3e-497c-af5d-b316e8ba744a.png)
 
 ## Result:
   Thus created a perception to employ the Sigmoid activation function. This neuron was successfully trained to predict the correct output value, when provided with a new set of input data.
